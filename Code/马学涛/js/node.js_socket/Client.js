@@ -8,7 +8,7 @@ let rl = readline.createInterface({
 })
 let username = '';
 let client = new net.Socket();
-console.log('-----------------------欢迎来到聊天室----------------------');
+console.log('-----------------------欢迎来到清纯女大学生XX群----------------------（可输入.exit退出）');
 console.log('请输入用户名:');
 // 链接
 client.connect(8091,'localhost');

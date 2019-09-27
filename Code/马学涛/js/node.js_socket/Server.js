@@ -34,7 +34,7 @@ server.on('connection',(person)=>{
             data = chunk.slice(name.length+3,chunk.length);
             //console.log(data);
             //console.log(time.toString());
-            val.write(name+' '+time.toString().slice(16,24)+' : '+data);})
+            val.write(name+' '+time.toString().slice(16,24)+' :\n '+data);})
         }
     })
     person.on('close',(p1)=>{
